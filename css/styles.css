@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color:#ccc;
+    background: rgb(33, 34, 34);
+}
+
+header{
+    min-height: 80px;
+    background: navy;
+    padding: 0 2.5%;
+    display: flex;
+    align-items: center;
+}
+
+header>svg{
+    margin-left: auto;
+}
