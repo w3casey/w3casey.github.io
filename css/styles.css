@@ -12,11 +12,42 @@ body{
 header{
     min-height: 80px;
     background: navy;
-    padding: 0 2.5%;
-    display: flex;
-    align-items: center;
 }
 
-header>svg{
+header>div{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    align-items: center;
+    padding: 0 2.5%;
+}
+
+header>div>svg{
     margin-left: auto;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+}   
+
+header nav ul li{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 48px;
+}
+
+header nav ul a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-transform: capitalize;
 }
