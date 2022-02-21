@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+h1,h2,h3,h4,h5,h6{
+    margin-top: 1em;
+}
+
+p{
+    margin-top: 0.5em;
+}
+
 body{
     color:#ccc;
     background: rgb(33, 34, 34);
@@ -40,14 +48,31 @@ header nav ul li{
     min-height: 48px;
 }
 
-header nav ul a{
+a{
     text-decoration: none;
     color: white;
+    text-transform: capitalize;
+}
+
+header nav ul a{
     width: 100%;
     height: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 15px;
-    text-transform: capitalize;
+}
+
+
+
+/* Section Styles */
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:first-of-type h1 + h3{
+    text-align: center;
 }
