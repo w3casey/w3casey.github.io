@@ -14,12 +14,12 @@ p{
 
 body{
     color:#ccc;
-    background: rgb(33, 34, 34);
+    background: #222;
 }
 
 header{
     min-height: 80px;
-    background: navy;
+    background-color: rgb(63, 62, 62);
 }
 
 header>div{
@@ -27,11 +27,22 @@ header>div{
     flex-direction: row;
     height: 80px;
     align-items: center;
-    padding: 0 2.5%;
+    padding: 10px 20px;
+}
+
+header>div>#logo{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 header>div>svg{
     margin-left: auto;
+}
+
+header nav{
+    display: none;
+    border-top:1px solid white;
 }
 
 header nav ul{
@@ -46,6 +57,10 @@ header nav ul li{
     display: flex;
     justify-content: center;
     min-height: 48px;
+}
+
+header nav ul li a{
+    font-size: 14px;
 }
 
 a{
@@ -71,13 +86,55 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1.5em 1em;
+    padding: 1.5em 0.8em;
+    margin-bottom: 5%;
 }
 
-section:first-of-type h1 + h3{
-    text-align: center;
+.section-header{
+    margin: 0 0 42px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-section:nth-child(odd){
-    background: rgb(68, 68, 68);
+section:first-of-type>img{
+    border-radius: 50%;
+    border: 8px solid #444 ;
+}
+
+
+/* Favorite Interests */
+
+.interest-block{
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px 40px 0;
+}
+
+.interest-block .interest-block_icon-wrapper{
+    padding: 0.8em 0.4em 0 0;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+.interest-block .interest-block_content-wrapper{
+    padding: 0 0 0 0.5em;
+}
+
+.interest-block .interest-block_icon{
+    width: 44px;
+}
+
+
+
+.interest-block h4{
+    font-size: 1.5em;
+}
+
+/* Form */
+
+form{
+    display: flex;
+    flex-wrap: wrap;
 }

@@ -32,8 +32,8 @@
 <body>
     <header>
         <div>
-            <a href="#" aria-roledescription="go to home">W3casey</a>
-            <svg fill="#ccc" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="40" height="50px"><path d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z"/></svg>    
+            <a href="#" id="logo" aria-roledescription="go to home">W3casey</a>
+            <svg fill="#ccc" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="30" height="30px"><path d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z"/></svg>    
         </div>
         <nav>
             <ul>
@@ -43,39 +43,68 @@
             </ul>
         </nav>
     </header>
+
     <section>
-        <img src="https://via.placeholder.com/250x300" alt="">
-        <h1>Hi, I'm Casey.</h1>
-        <h3>A web developer based out of <span>Syracuse, NY</span></h3>
-        <p>I specialize in the development of fullstack javascript web applications.</p>
+        <img src="https://via.placeholder.com/240x240" alt="">
+        <h1>Web Developer</h1>
+        <h2>Casey Woelfle</h2>
+        <p>Hello, My name is Casey. Thanks for checking out my website. Here you can learn about me and get in contact with me. I hope you enjoy your stay.</p>
     </section>
+
     <section>
-        <h2>Favorite Things</h2>
-        <p>When I am not working I like to </p>
-        <div>
-            <div>
-                <h3>Study User Experience Design</h3>
-                <img src="https://via.placeholder.com/250x300" alt="">
+        <div class="section-header">
+            <h2>Favorite Things</h2>
+            <p>When I am not busy saving the world I have a few favorite things I generally spend my free time doing.</p>
+        </div>
+
+        <div class="interest-block">
+            <div class="interest-block_icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" class="interest-block_icon" viewBox="0 0 25.24 23.29"><defs><style>.cls-1{fill:rgb(0, 173, 241);}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Capa_1" data-name="Capa 1"><path class="cls-1" d="M23.08,0H2.17A2.17,2.17,0,0,0,0,2.17V18.05a2.17,2.17,0,0,0,2.17,2.16H9v1.5H6.37a.79.79,0,1,0,0,1.58H18.88a.79.79,0,0,0,0-1.58H16.21v-1.5h6.87a2.16,2.16,0,0,0,2.16-2.16V2.17A2.17,2.17,0,0,0,23.08,0ZM2.17,1.58H23.08a.58.58,0,0,1,.58.59V3.35H1.58V2.17A.58.58,0,0,1,2.17,1.58Zm21.49,13.7H1.58V4.93H23.66Zm-9,6.43h-4v-1.5h4Zm8.45-3.08H2.17a.58.58,0,0,1-.59-.58V16.86H23.66v1.19A.58.58,0,0,1,23.08,18.63Z"/><path class="cls-1" d="M10.39,13.13a.78.78,0,0,0,.55-.23l4.47-4.47a.78.78,0,0,0,0-1.11.79.79,0,0,0-1.12,0L9.83,11.78a.79.79,0,0,0,.56,1.35Z"/><path class="cls-1" d="M7.62,12.9a.8.8,0,0,0,.56.23.82.82,0,0,0,.56-.23.79.79,0,0,0,0-1.12L7.1,10.14,8.75,8.49a.78.78,0,0,0,0-1.11.79.79,0,0,0-1.12,0L5.42,9.58a.79.79,0,0,0,0,1.12Z"/><path class="cls-1" d="M16.5,12.9a.79.79,0,0,0,.56.23.82.82,0,0,0,.56-.23l2.2-2.21a.8.8,0,0,0,0-1.12l-2.19-2.2a.81.81,0,0,0-1.12,0,.79.79,0,0,0,0,1.12l1.64,1.64L16.5,11.78A.79.79,0,0,0,16.5,12.9Z"/></g></g></svg>
             </div>
-            <div>
-                <h3>Stay In Shape</h3>
-                <img src="https://via.placeholder.com/250x300" alt="">
-            </div>
-            <div>
-                <h3>Play Video Games</h3>
-                <img src="https://via.placeholder.com/250x300" alt="">
+            <div class="interest-block_content-wrapper">
+                <h4>Coding</h4>
+                <p>I love to create things that live on the web. Building websites has been a passion of mine since I was in middle school. I aim to make it my full time career one day.</p>
             </div>
         </div>
+
+        <div class="interest-block">
+            <div class="interest-block_icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" class="interest-block_icon" viewBox="0 0 24.21 27.01"><defs><style>.cls-1{fill:rgb(0, 173, 241);}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Capa_1" data-name="Capa 1"><path class="cls-1" d="M7.42,13a1.89,1.89,0,0,1-1.85,1.49.44.44,0,1,0,0,.87A2.77,2.77,0,0,0,8.31,13a3.67,3.67,0,0,0,2.24-1.09.44.44,0,0,0-.62-.62,2.83,2.83,0,0,1-4.85-2,.44.44,0,1,0-.88,0A3.72,3.72,0,0,0,7.42,13Z"/><path class="cls-1" d="M9.28,16.77a.44.44,0,0,0-.44-.44A3.72,3.72,0,0,0,5.13,20v.06a3.91,3.91,0,0,0-.49,0,.44.44,0,1,0,0,.87,2.83,2.83,0,0,1,2.83,2.83.44.44,0,1,0,.87,0A3.7,3.7,0,0,0,6,20.34c0-.1,0-.2,0-.3a2.83,2.83,0,0,1,2.83-2.83A.44.44,0,0,0,9.28,16.77Z"/><path class="cls-1" d="M24.21,13a3.72,3.72,0,0,0-1.1-2.64,3.65,3.65,0,0,0,.17-1.09,3.71,3.71,0,0,0-3-3.64A2.77,2.77,0,0,0,18.8,2.09,8.54,8.54,0,0,0,14,0a2.27,2.27,0,0,0-1.86,1,2.31,2.31,0,0,0-1.87-1A8.54,8.54,0,0,0,5.41,2.09,2.77,2.77,0,0,0,3.93,5.67a3.71,3.71,0,0,0-3,3.64A3.65,3.65,0,0,0,1.1,10.4a3.72,3.72,0,0,0-.45,4.74A3.7,3.7,0,0,0,1.9,20.47a4.32,4.32,0,0,0,0,.5,4.16,4.16,0,0,0,2.9,4,4.17,4.17,0,0,0,7.34-.24,4.17,4.17,0,0,0,7.33.24,4.16,4.16,0,0,0,2.9-4,4.32,4.32,0,0,0,0-.5,3.7,3.7,0,0,0,1.25-5.33A3.7,3.7,0,0,0,24.21,13ZM8.37,26.14a3.3,3.3,0,0,1-2.92-1.77.4.4,0,0,0-.27-.22A3.29,3.29,0,0,1,2.74,21a3,3,0,0,1,.07-.66.44.44,0,0,0-.25-.49A2.83,2.83,0,0,1,.88,17.24a2.8,2.8,0,0,1,.38-1.42,3.7,3.7,0,0,0,2.44.92.44.44,0,1,0,0-.87,2.83,2.83,0,0,1-1.81-5,.44.44,0,0,0,.13-.5,2.78,2.78,0,0,1-.21-1.06,2.83,2.83,0,0,1,5.66,0,.44.44,0,0,0,.87,0,3.7,3.7,0,0,0-3.46-3.7,1.84,1.84,0,0,1-.27-1A1.89,1.89,0,0,1,5.76,2.9l.07,0a1.9,1.9,0,0,1,.67-.13A1.88,1.88,0,0,1,8.21,3.81.44.44,0,0,0,9,3.43,2.81,2.81,0,0,0,7.14,1.94,6.37,6.37,0,0,1,10.24.88,1.43,1.43,0,0,1,11.67,2.3V8a2.26,2.26,0,0,0-1.43-.5.44.44,0,1,0,0,.87,1.43,1.43,0,0,1,1.43,1.43V20.29a4.17,4.17,0,0,0-2.22-1.47.42.42,0,0,0-.53.3.44.44,0,0,0,.31.54,3.3,3.3,0,0,1-.86,6.48Zm13.28-6.32a.46.46,0,0,0-.25.49,3,3,0,0,1,.07.66A3.29,3.29,0,0,1,19,24.15a.4.4,0,0,0-.27.22,3.3,3.3,0,0,1-6.22-1.53c0-.12,0-.25,0-.37a.37.37,0,0,0,0-.11V7.9A1.43,1.43,0,0,1,14,6.48a.44.44,0,1,0,0-.88,2.32,2.32,0,0,0-1.43.5V2.3A1.43,1.43,0,0,1,14,.88a6.37,6.37,0,0,1,3.1,1.06,2.81,2.81,0,0,0-1.86,1.49.44.44,0,0,0,.79.38,1.88,1.88,0,0,1,1.71-1.07,1.9,1.9,0,0,1,.67.13l.07,0A1.89,1.89,0,0,1,19.6,4.64a1.84,1.84,0,0,1-.27,1,3.7,3.7,0,0,0-3.46,3.7.44.44,0,0,0,.87,0,2.83,2.83,0,1,1,5.66,0,2.78,2.78,0,0,1-.21,1.06.44.44,0,0,0,.13.5,2.83,2.83,0,0,1-1.81,5,.44.44,0,1,0,0,.87A3.7,3.7,0,0,0,23,15.82a2.8,2.8,0,0,1-1.3,4Z"/><path class="cls-1" d="M19.57,14a1.91,1.91,0,0,1-1.85-1.49,3.7,3.7,0,0,0,3.22-3.67.44.44,0,1,0-.87,0,2.83,2.83,0,0,1-2.83,2.83,2.78,2.78,0,0,1-2-.85.44.44,0,0,0-.63.61,3.67,3.67,0,0,0,2.24,1.09,2.79,2.79,0,0,0,2.74,2.36.44.44,0,0,0,0-.88Z"/><path class="cls-1" d="M18.17,19.14a3.91,3.91,0,0,0-.49,0v-.06A3.72,3.72,0,0,0,14,15.4a.44.44,0,1,0,0,.88,2.83,2.83,0,0,1,2.83,2.83c0,.1,0,.2,0,.3a3.7,3.7,0,0,0-2.32,3.43.44.44,0,1,0,.87,0A2.83,2.83,0,0,1,18.17,20a.44.44,0,0,0,.44-.44A.44.44,0,0,0,18.17,19.14Z"/></g></g></svg>
+            </div>
+            <div class="interest-block_content-wrapper">
+                <h4>Learning</h4>
+                <p>I love to expand my knowledge and learn new skills about a wide variety of things. Lately I have been learning networking, cyber security, and user experience design.</p>
+            </div>
+        </div>
+
+        <div class="interest-block">
+            <div class="interest-block_icon-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" class="interest-block_icon" viewBox="0 0 24.78 27.71"><defs><style>.cls-1{fill:rgb(0, 173, 241);}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Capa_1" data-name="Capa 1"><path class="cls-1" d="M12.35,4.63A2.33,2.33,0,0,0,14.7,2.32a2.35,2.35,0,0,0-4.7,0A2.33,2.33,0,0,0,12.35,4.63Z"/><path class="cls-1" d="M22.91,5.65a.84.84,0,0,0-1.18.06A4.48,4.48,0,0,1,18.83,7h0a4.77,4.77,0,0,1-3.4-1.8A.89.89,0,0,0,14.73,5H9.9a.78.78,0,0,0-.58.27A4.8,4.8,0,0,1,5.92,7h0A4.42,4.42,0,0,1,3,5.71.84.84,0,1,0,1.75,6.83,6.08,6.08,0,0,0,5.86,8.71h.06A5.76,5.76,0,0,0,9.55,7.32V26.45a1.26,1.26,0,1,0,2.51,0V17h.59v9.47a1.26,1.26,0,1,0,2.51,0V7.3a5.71,5.71,0,0,0,3.65,1.41h.05A6,6,0,0,0,23,6.82.83.83,0,0,0,22.91,5.65Z"/><path class="cls-1" d="M19.46,5.73a.68.68,0,0,0,.94.14l.17-.13,2,2.52-.17.14a.63.63,0,1,0,.77,1l1.37-1.07a.63.63,0,1,0-.78-1l-.09.07-2-2.52.09-.07a.69.69,0,0,0,.09-.95.7.7,0,0,0-1-.15L19.54,4.78A.7.7,0,0,0,19.46,5.73Z"/><path class="cls-1" d="M5.32,5.73a.69.69,0,0,1-1,.14L4.2,5.74l-2,2.52.18.14a.63.63,0,1,1-.78,1L.26,8.32a.63.63,0,1,1,.77-1l.09.07,2-2.52L3,4.81a.7.7,0,0,1-.08-.95.68.68,0,0,1,.94-.15L5.24,4.78A.7.7,0,0,1,5.32,5.73Z"/></g></g></svg>
+            </div>
+            <div class="interest-block_content-wrapper">
+                <h4>Working out</h4>
+                <p>Staying in shape is important to me. I strive to be as physically fit as I can. I put aside time each day to workout and stay in shape. My favorite workouts are running and calisthenics</p>
+            </div>
+        </div>
+
     </section>
+
     <section>
-        <form id="contact-form">
+        <div id="contact-form">
             <input type="hidden" name="contact_number">
-            <label>Name</label>
-            <input type="text" name="user_name">
-            <label>Email</label>
-            <input type="email" name="user_email">
-            <label>Message</label>
-            <textarea name="message"></textarea>
+            
+            <div>
+                <label>Name
+                <input type="text" name="user_name"> 
+            </label>    
+                <label>Email
+                <input type="email" name="user_email">
+            </label>
+            </div>
+            <div>
+                <label>Message</label>
+                <textarea name="message"></textarea>
+            </div>
             <input type="submit" value="Send">
         </form>
     </section>
